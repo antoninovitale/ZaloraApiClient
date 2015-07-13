@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zalora API Client</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">Go to the list fragment by touching the navigation drawer and select the second item</string>
+    <string name="main_activity">Main</string>
+    <string name="details_activity">Details</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="content_descriptor_image_drawer">img drawer</string>
+    <string name="content_descriptor_image_car">img</string>
+    <string name="content_descriptor_image_other">img other</string>
+    <string name="no_items">Empty list</string>
+    <string name="euro_symbol">&#8364;</string>
+
+</resources>

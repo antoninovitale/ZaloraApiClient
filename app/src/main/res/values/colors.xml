@@ -1,0 +1,19 @@
+<resources>
+
+    <color name="black">#ff000000</color>
+    <color name="dark_gray">#ff4b575f</color>
+    <color name="light_gray">#ff8a9197</color>
+    <color name="light_gray_tool">#ffeeeeee</color>
+    <color name="medium_gray">#ffd6d6d6</color>
+    <color name="blue">#ff0f8b97</color>
+    <color name="dark_blue">#19444c</color>
+    <color name="darker_blue">#191919</color>
+    <color name="orange_alert">#ffff8200</color>
+    <color name="green">#8BB83F</color>
+    <color name="dark_green">#008000</color>
+    <color name="darker_green">#005000</color>
+    <color name="red">#EB2E20</color>
+    <color name="white">#ffffff</color>
+    <color name="pressed_goocar">#CC0F8B97</color>
+
+</resources>

@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollerMORE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin" >
+
+    <TextView
+        android:id="@+id/app_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/start" />
+
+    
+
+</RelativeLayout><!-- From: file:/Users/macbook/AS_Projects/ZaloraApiClient/app/src/main/res/layout/fragment_first.xml -->

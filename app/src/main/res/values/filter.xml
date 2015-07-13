@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filter">
+        <item>name</item>
+        <item>price</item>
+        <item>brand</item>
+        <item>popularity</item>
+    </string-array>
+
+</resources>

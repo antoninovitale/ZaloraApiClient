@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/dividerTop"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/blue" />
+
+    <Spinner
+        android:id="@+id/txFilter"
+        style="@android:style/Widget.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/high_margin"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:choiceMode="singleChoice"
+            android:divider="@color/blue"
+            android:dividerHeight="1dp"
+            android:drawSelectorOnTop="true"
+            android:scrollingCache="false" />
+
+        <ViewStub
+            android:id="@android:id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout="@layout/empty_view" />
+    </FrameLayout>
+
+</LinearLayout><!-- From: file:/Users/macbook/AS_Projects/ZaloraApiClient/app/src/main/res/layout/fragment_list.xml -->
